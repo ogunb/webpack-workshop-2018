@@ -6,7 +6,7 @@
   "scripts": {
     "webpack": "webpack",
     "debug": "node --inspect-brk ./node_modules/webpack/bin/webpack.js",
-    "dev": "npm run webpack -- --mode development",
+    "dev": "npm run webpack -- --mode development --watch",
     "dev:debug": "npm run debug -- --mode development",
     "prod": "npm run webpack -- --mode production",
     "prod:debug": "npm run debug -- --mode production"
